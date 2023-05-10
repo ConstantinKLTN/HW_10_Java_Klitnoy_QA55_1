@@ -5,7 +5,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 public class RadioTest {
 
-
     @ParameterizedTest
     @CsvFileSource(files="src/test/resources/StationSelection.csv")
     public void testStationSelection(int expected, int station) {
